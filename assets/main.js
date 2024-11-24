@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const totalTiles = 25; // Всего плиток
     let tilesToOpen = 0; // Количество открываемых плиток
     const tileDelay = 730; // Задержка между открытием плиток (600 миллисекунд)
-    const additionalInactiveDuration = 10000; // Дополнительная задержка в 10 секунд
+    const additionalInactiveDuration = 3000; // Дополнительная задержка в 10 секунд
     let openedTiles = new Set(); // Множество для хранения открытых плиток
     let numberOfTraps = 1; // Количество ловушек по умолчанию
 
